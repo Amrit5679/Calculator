@@ -52,25 +52,7 @@ class Calculator{
     }
 
     getDisplayNumber(number){
-       /* const stringNumber=number.toString()
-        const integerDigits=parseFloat(stringNumber.split('.')[0])
-        const decimalDigits=stringNumber.split('.')[1]
-        let integerDisplay
-       if(isNaN(integerDigits)){
-        integerDisplay=''
-       }   
-       else{
-        integerDisplay=integerDigits.toLocaleString('en',{
-        maximumFractionDigits:0})
-       }
-       if(decimalDigits !=NULL){
-        return `${integrDisplay}.${decimalDigits}`
-       }else{
-        return integerDisplay
-       }*/
-    //    const floatNumber=parseFloat(number)
-    //    if(isNaN(floatNumber))return ''
-    //    return floatNumber.toLocaleString('en')
+       
     }
     updateDisplay(){
         /*this.currentOperandTextElement.innerText=
